@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "31926151375",
+    "project_id": "flutterprac-fe65f",
+    "storage_bucket": "flutterprac-fe65f.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:31926151375:android:10dc30d896d17cd3776fba",
+        "android_client_info": {
+          "package_name": "com.example.rentflow"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7WKF9zU93ylf6WufVhsR9ubk7IM7BOr4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:31926151375:android:509c460c737aa3a1776fba",
+        "android_client_info": {
+          "package_name": "com.example.untitled"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7WKF9zU93ylf6WufVhsR9ubk7IM7BOr4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
