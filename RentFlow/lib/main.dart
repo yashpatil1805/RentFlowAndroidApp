@@ -94,8 +94,8 @@ class TenantDetailsScreen extends StatelessWidget {
     final pdf = pw.Document();
 
     String total = invoiceData['Total'].toString(); // Retrieve total dynamically
-    String upiLink = 'upi://pay?pa=prajaktalpatil1104@okhdfcbank'
-        '&pn=${Uri.encodeComponent("Prajakta Patil")}'
+    String upiLink = 'upi://pay?pa=xyz@okhdfcbank'
+        '&pn=${Uri.encodeComponent("Xyz")}'
         '&am=$total&cu=INR'; // Use total here
 
     final qrImage = await QrPainter(
@@ -187,9 +187,9 @@ class TenantDetailsScreen extends StatelessWidget {
               pw.Image(pw.MemoryImage(qrImageList)),
               pw.SizedBox(height: 20),
               pw.Text(
-                "OR Pay using below UPI number (GPay, Paytm, PhonePe) => 8698203878 (Prajakta Patil)",
+                "OR Pay using below UPI number (GPay, Paytm, PhonePe) => 123456788 (XYZ)",
                 style: pw.TextStyle(fontSize: 18),
-              ),
+              )
             ],
           ),
         ),
